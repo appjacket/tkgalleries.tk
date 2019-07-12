@@ -1,0 +1,154 @@
+/*
+ * 
+ *	Unless otherwise restricted, this repository and all files within are copyright 2019 J David Thomson Consulting Inc.  All rights reserved.
+Unlicensed use of this software is prohibited; No usage license is implied or granted herein.
+Copyright 2019 J David Thomson Consulting Inc.
+ *
+ *
+ * */
+
+body{
+	background-color: lightgrey;
+
+}
+h2, span, label{
+	color: black;
+}
+p {
+	color: white;
+}
+.category-image-link {
+	width: 200px;
+	height: auto%;
+	padding: 1em;
+}
+.close-crimson{
+	background-color: crimson;
+}
+.brown-frame {
+	border-width: .25em;
+	border-color: brown;
+}
+.artist-gallery{
+}
+.fix-navbar-brand-padding{
+	padding-left: 1em;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+	background-image: none;
+
+}
+.frame{
+	background-color: white;
+	padding: 1rem;
+}
+.greyframe{
+	background-color: lightgray;
+}
+.carousel-control-next-icon:after{
+	content: '>';
+	font-size: 55px;
+	color: black;
+}
+.carousel-control-prev-icon:after{
+	content: '<';
+	font-size: 55px;
+	color: black;
+}
+#impression-carousel img{
+	/*width:15%;*/
+	/*height:auto;*/
+	width: auto;
+	height:200px;
+}
+#impression-carousel{
+	padding-bottom: 3rem;
+}
+#gallery_a-carousel,
+#gallery_b-carousel,
+#gallery_c-carousel,
+#gallery_d-carousel{
+	background-color: white;
+	border-radius: .25rem;
+	border: solid;
+	border-width: .125rem;
+	border-color: #007bff;
+}
+#gallery_a .carousel-inner,
+#gallery_b .carousel-inner,
+#gallery_c .carousel-inner,
+#gallery_d .carousel-inner{
+	height:35em;
+	max-height:35em;
+	width:auto;
+}
+.carousel-inner .item img {
+    margin: auto;
+    padding: 0px;
+}
+
+.crimson {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-radius: .25rem;
+	border-style: solid;
+	border-width: .125rem;
+	border-color: #007bff;
+	background-color: crimson;
+}
+.white-border{
+	padding: 2em;
+	background-color:white;
+	border-radius: .25rem;
+	border-style: solid;
+	border-width: .125rem;
+	border-color: #007bff;
+
+}
+.h_100{
+	padding: 4em;
+	height:100%;
+	border-radius: .25rem;
+	border-style: solid;
+	border-width: .125rem;
+	border-color: #007bff;
+	background-color:crimson;
+}
+.gallery-border{
+	background-color:white;
+	border-style:solid;
+	border-width: .125rem;
+	border-color:#007bff;
+	padding-bottom: 1rem;
+}
+.gallery-border-bottom{
+	text-align:center;
+	width: 60%;
+	margin: 1rem 4rem 1rem 4rem;
+	padding-bottom: 1rem;
+	border-style: solid;
+	border-width: .25rem 0rem .25rem 0rem;
+	border-color: lightgrey;
+}
+.border-thick-light-brown{
+	border: .25rem;
+	border-style: solid;
+	border-color: burlywood;
+}
+/* bootstrap overrides */
+.form-control, .form-control:focus{
+	border-width: .25rem;
+	border-color: black;
+	background-color: lightgrey;
+	color: black;
+}
+.navbar{
+	background-color: crimson;
+}
+.navbar-brand, .nav-link, footer{
+	color: white;
+}
+.title{
+	color: white;
+}
